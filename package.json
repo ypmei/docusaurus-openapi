@@ -1,5 +1,5 @@
 {
-  "name": "gs-docusaurus-openapi",
+  "name": "docusaurus-openapi",
   "workspaces": {
     "packages": [
       "packages/*",
