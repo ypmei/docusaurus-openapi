@@ -72,11 +72,11 @@ loader
         { token: "tag.xml", foreground: LIGHT_BLUE },
       ],
       colors: {
-        "editor.background": LIGHT_BACKGROUND,
-        "editor.lineHighlightBackground": LIGHT_BACKGROUND,
-        "editorBracketMatch.background": LIGHT_BACKGROUND,
-        "editorBracketMatch.border": LIGHT_BACKGROUND,
-        "editor.selectionBackground": LIGHT_SELECT,
+        "editor.background": LIGHT_BACKGROUND.trim(),
+        "editor.lineHighlightBackground": LIGHT_BACKGROUND.trim(),
+        "editorBracketMatch.background": LIGHT_BACKGROUND.trim(),
+        "editorBracketMatch.border": LIGHT_BACKGROUND.trim(),
+        "editor.selectionBackground": LIGHT_SELECT.trim(),
       },
     });
   })
